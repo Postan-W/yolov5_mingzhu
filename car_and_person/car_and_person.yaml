@@ -1,0 +1,4 @@
+train: ./car_and_person/train/images
+val: ./car_and_person/val/images
+nc: 2
+names: ['person','car']

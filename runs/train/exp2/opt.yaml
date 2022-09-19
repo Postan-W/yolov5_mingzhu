@@ -1,9 +1,9 @@
-weights: pre_trained\yolov5s.pt
-cfg: ''
-data: mask_detection\wearmask.yaml
+weights: ''
+cfg: models\yolov5s_2.yaml
+data: car_and_person\car_and_person.yaml
 hyp: data\hyps\hyp.scratch-low.yaml
 epochs: 300
-batch_size: 4
+batch_size: 8
 imgsz: 640
 rect: false
 resume: false
@@ -19,7 +19,7 @@ multi_scale: false
 single_cls: false
 optimizer: SGD
 sync_bn: false
-workers: 0
+workers: 3
 project: runs\train
 name: exp
 exist_ok: false

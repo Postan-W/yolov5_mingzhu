@@ -1,4 +1,4 @@
-train: ./mask_detection/images
+train: ./mask_detection/train/images
 val: ./mask_detection/val/images
 nc: 1
 names: ['wearmask']
