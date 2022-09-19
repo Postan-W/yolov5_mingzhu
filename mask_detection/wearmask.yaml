@@ -1,4 +1,4 @@
-train: ./selfbuiltDataset/images
-val: ./selfbuiltDataset/val/images
+train: ./mask_detection/images
+val: ./mask_detection/val/images
 nc: 1
 names: ['wearmask']
