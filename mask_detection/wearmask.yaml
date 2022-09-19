@@ -1,0 +1,4 @@
+train: ./selfbuiltDataset/images
+val: ./selfbuiltDataset/val/images
+nc: 1
+names: ['wearmask']

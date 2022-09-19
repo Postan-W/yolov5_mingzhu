@@ -1,4 +1,0 @@
-train: ./images
-val: ./val/images
-nc: 1
-name: ['wearmask']
