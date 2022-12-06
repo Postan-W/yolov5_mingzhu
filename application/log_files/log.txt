@@ -1,0 +1,32 @@
+ERROR 22-12-06 15:21:43 mask_detection.py predict line=58 b64Í¼Æ¬½âÂë´íÎó:OpenCV(4.5.5) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+ERROR 22-12-06 15:24:10 mask_detection.py predict line=59 b64Í¼Æ¬½âÂë´íÎó:OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+ERROR 22-12-06 15:26:10 mask_detection.py predict line=60 b64Í¼Æ¬½âÂë´íÎó:cannot identify image file <_io.BytesIO object at 0x0000026726663BD0>
+ERROR 22-12-06 15:32:59 mask_detection.py predict line=60 b64Í¼Æ¬½âÂë´íÎó:OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'imshow'
+> Overload resolution failed:
+>  - imshow() missing required argument 'mat' (pos 2)
+>  - imshow() missing required argument 'mat' (pos 2)
+>  - imshow() missing required argument 'mat' (pos 2)
+
+ERROR 22-12-06 15:42:24 mask_detection.py predict line=60 b64Í¼Æ¬½âÂë´íÎó:OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'imshow'
+> Overload resolution failed:
+>  - imshow() missing required argument 'mat' (pos 2)
+>  - imshow() missing required argument 'mat' (pos 2)
+>  - imshow() missing required argument 'mat' (pos 2)
+
+ERROR 22-12-06 15:43:38 mask_detection.py predict line=60 b64Í¼Æ¬½âÂë´íÎó:OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'imshow'
+> Overload resolution failed:
+>  - imshow() missing required argument 'mat' (pos 2)
+>  - imshow() missing required argument 'mat' (pos 2)
+>  - imshow() missing required argument 'mat' (pos 2)
+
+ERROR 22-12-06 15:47:10 mask_detection.py predict line=61 b64Í¼Æ¬½âÂë´íÎó:OpenCV(4.5.5) :-1: error: (-5:Bad argument) in function 'imshow'
+> Overload resolution failed:
+>  - imshow() missing required argument 'mat' (pos 2)
+>  - imshow() missing required argument 'mat' (pos 2)
+>  - imshow() missing required argument 'mat' (pos 2)
+
